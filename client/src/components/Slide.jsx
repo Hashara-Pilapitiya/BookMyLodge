@@ -3,8 +3,8 @@ import "../styles/Slide.scss"
 const Slide = () => {
   return (
     <div className="slide">
-      <h1>
-        Discover your dream home <br /> with just a click – Explore a vast selection <br /> of properties tailored to your preferences.
+      <h1 style={{fontSize: "70px" , letterSpacing: "3px" , lineHeight: "120px"}}>
+        Discover Your Dream Home <br /> With Just a Click.
       </h1>
     </div>
   );
