@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_left">
-        <a href="/"><img src="/assets/logo.png" alt="logo" /></a>
+        <a href="/"><img src="/assets/logo.png" alt="logo" /></a><br />
+        <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
       </div>
 
       <div className="footer_center">

@@ -41,18 +41,18 @@ const Navbar = () => {
       </div>
 
       <div className="navbar_right">
-        <li>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-        </li>
+        <div style={{display: "flex" , gap: "20px" , fontWeight: "700"}}>
+          <a href="" style={{color: "black" , textDecoration: "none"}}>Home</a>
+          <a href="" style={{color: "black" , textDecoration: "none"}}>About</a>
+          <a href="" style={{color: "black" , textDecoration: "none"}}>Contact</a>
+        </div>
       
       {user ? (
-          <a href="/create-listing" className="host">
+          <a href="/create-listing" className="host" style={{color: "black" , fontWeight: "700"}}>
             Add A Property
           </a>
         ) : (
-          <a href="/login" className="host">
+          <a href="/login" className="host" style={{color: "black" , fontWeight: "700"}}>
             Add A Property
           </a>
         )}
@@ -87,13 +87,13 @@ const Navbar = () => {
 
         {dropdownMenu && user && (
           <div className="navbar_right_accountmenu">
-            <Link to={`/${user._id}/trips`}>Booking Properties</Link>
-            <Link to={`/${user._id}/wishList`}>Favourite Properties</Link>
-            <Link to={`/${user._id}/properties`}>Property List</Link>
-            <Link to={`/${user._id}/reservations`}>Reservation List</Link>
-            <Link to="/create-listing">Add A Property</Link>
+            <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/trips`}>Booking Properties</Link>
+            <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/wishList`}>Favourite Properties</Link>
+            <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/properties`}>Property List</Link>
+            <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/reservations`}>Reservation List</Link>
+            <Link style={{color: "black" , fontWeight: "700"}} to="/create-listing">Add A Property</Link>
 
-            <Link
+            <Link style={{color: "black" , fontWeight: "700"}}
               to="/login"
               onClick={() => {
                 dispatch(setLogout());
