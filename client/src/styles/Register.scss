@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("../../public/assets/register.jpg") center;
+  background: url("../../public/assets/register.avif") center;
   background-size: cover;
 
   &_content {
@@ -70,6 +70,7 @@
 
       button {
         margin-top: 15px;
+        background: orangered;
 
         @include buttonStyle;
         width: 50%;

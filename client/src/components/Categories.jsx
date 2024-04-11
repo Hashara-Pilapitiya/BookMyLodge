@@ -5,11 +5,9 @@ import { Link } from "react-router-dom";
 const Categories = () => {
   return (
     <div className="categories">
-      <h1>Explore Top Categories</h1>
+      <h1>Our Top Property List</h1>
       <p>
-        Explore our wide range of vacation rentals that cater to all types of
-        travelers. Immerse yourself in the local culture, enjoy the comforts of
-        home, and create unforgettable memories in your dream destination.
+      Welcome to your one-stop destination for home bookings. Explore luxurious villas, cozy cottages, and everything in between. Plan your next escape with ease – our user-friendly platform makes finding and booking your dream home a breeze.
       </p>
 
       <div className="categories_list">

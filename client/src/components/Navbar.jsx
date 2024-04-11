@@ -43,11 +43,11 @@ const Navbar = () => {
       <div className="navbar_right">
         {user ? (
           <a href="/create-listing" className="host">
-            Become A Host
+            Add A Property
           </a>
         ) : (
           <a href="/login" className="host">
-            Become A Host
+            Add A Property
           </a>
         )}
 
@@ -79,11 +79,11 @@ const Navbar = () => {
 
         {dropdownMenu && user && (
           <div className="navbar_right_accountmenu">
-            <Link to={`/${user._id}/trips`}>Trip List</Link>
-            <Link to={`/${user._id}/wishList`}>Wish List</Link>
+            <Link to={`/${user._id}/trips`}>Booking Properties</Link>
+            <Link to={`/${user._id}/wishList`}>Favourite Properties</Link>
             <Link to={`/${user._id}/properties`}>Property List</Link>
             <Link to={`/${user._id}/reservations`}>Reservation List</Link>
-            <Link to="/create-listing">Become A Host</Link>
+            <Link to="/create-listing">Add A Property</Link>
 
             <Link
               to="/login"
