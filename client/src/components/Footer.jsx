@@ -1,18 +1,29 @@
 import "../styles/Footer.scss"
-import { LocationOn, LocalPhone, Email } from "@mui/icons-material"
+import { LocalPhone, Email } from "@mui/icons-material"
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_left">
         <a href="/"><img src="/assets/logo.png" alt="logo" /></a><br />
-        <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+        <p>Explore luxurious villas, cozy cottages, and everything in between.</p>
+        <div className="socila_media" style={{marginTop: "30px" , fontSize: "25px" , color: "blue"}}>
+        <FaFacebook style={{marginRight: "20px" , cursor: "pointer"}}/>
+        <FaTwitter style={{marginRight: "20px" , cursor: "pointer"}}/>
+        <FaInstagramSquare style={{marginRight: "20px" , cursor: "pointer"}}/>
+        <FaLinkedin />
+        </div>
       </div>
 
       <div className="footer_center">
         <h3>Useful Links</h3>
-        <ul>
-          <li>About Us</li>
-          <li>Terms and Conditions</li>
+        <ul style={{fontWeight: "600"}}>
+          <li style={{marginBottom: "35px"}}>About Us</li>
+          <li style={{marginBottom: "35px"}}>Terms and Conditions</li>
           <li>Return and Refund Policy</li>
         </ul>
       </div>
@@ -21,16 +32,18 @@ const Footer = () => {
         <h3>Contact</h3>
         <div className="footer_right_info">
           <LocalPhone />
-          <p>+1 234 567 890</p>
+          <p>+94 33 234 3457</p>
         </div>
+        <br />
         <div className="footer_right_info">
           <Email />
-          <p>dreamnest@support.com</p>
+          <p>bookmylodge@support.com</p>
         </div>
+        <br />
         <img src="/assets/payment.png" alt="payment" />
       </div>
     </div>
   )
 }
 
-export default Footer
+export default Footer;
