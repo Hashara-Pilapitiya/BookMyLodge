@@ -41,7 +41,13 @@ const Navbar = () => {
       </div>
 
       <div className="navbar_right">
-        {user ? (
+        <li>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </li>
+      
+      {user ? (
           <a href="/create-listing" className="host">
             Add A Property
           </a>
@@ -50,6 +56,8 @@ const Navbar = () => {
             Add A Property
           </a>
         )}
+
+        
 
         <button
           className="navbar_right_account"
