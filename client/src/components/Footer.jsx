@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -15,7 +16,8 @@ const Footer = () => {
         <FaFacebook style={{marginRight: "20px" , cursor: "pointer"}}/>
         <FaTwitter style={{marginRight: "20px" , cursor: "pointer"}}/>
         <FaInstagramSquare style={{marginRight: "20px" , cursor: "pointer"}}/>
-        <FaLinkedin />
+        <FaLinkedin style={{marginRight: "20px" , cursor: "pointer"}}/>
+        <IoLogoYoutube style={{fontSize: "30px" , cursor: "pointer"}}/>
         </div>
       </div>
 

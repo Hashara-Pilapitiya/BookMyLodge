@@ -19,6 +19,25 @@ const Navbar = () => {
 
   const navigate = useNavigate()
 
+  const nav_links = [
+    {
+        path: '/home',
+        display: 'Home',
+    },
+    {
+        path: '/about',
+        display: 'About',
+    },
+    {
+        path: '/support',
+        display: 'Support',
+    },
+    {
+        path: '/contact',
+        display: 'Contact',
+    },
+]
+
   return (
     <div className="navbar">
       <a href="/">
@@ -41,11 +60,16 @@ const Navbar = () => {
       </div>
 
       <div className="navbar_right">
-        <div style={{display: "flex" , gap: "20px" , fontWeight: "700"}}>
+      {nav_links.map(link => <Link
+                            key={link.path}
+                            to={link.path}
+                            href={link.path}>{link.display}</Link>)}
+                            
+        {/* <div style={{display: "flex" , gap: "20px" , fontWeight: "700"}}>
           <a href="" style={{color: "black" , textDecoration: "none"}}>Home</a>
           <a href="" style={{color: "black" , textDecoration: "none"}}>About</a>
           <a href="" style={{color: "black" , textDecoration: "none"}}>Contact</a>
-        </div>
+        </div>  */}
       
       {user ? (
           <a href="/create-listing" className="host" style={{color: "black" , fontWeight: "700"}}>

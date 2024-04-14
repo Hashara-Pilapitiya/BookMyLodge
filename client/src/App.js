@@ -11,6 +11,11 @@ import PropertyList from "./pages/PropertyList";
 import ReservationList from "./pages/ReservationList";
 import CategoryPage from "./pages/CategoryPage";
 import SearchPage from "./pages/SearchPage";
+import Home from "./pages/HomePage";
+import About from "./pages/About";
+// import Support from "./pages/Support";
+// import Contact from "./pages/Contact";
+
 
 function App() {
   return (
@@ -28,8 +33,13 @@ function App() {
           <Route path="/:userId/wishList" element={<WishList />} />
           <Route path="/:userId/properties" element={<PropertyList />} />
           <Route path="/:userId/reservations" element={<ReservationList />} />
+          <Route path='/home' element={<Home/>} />
+          <Route path='/about' element={<About/>} />
+          {/* <Route path='/support' element={<Support/>} />
+          <Route path='/contact' element={<Contact/>} /> */}
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
+     
     </div>
   );
 }
