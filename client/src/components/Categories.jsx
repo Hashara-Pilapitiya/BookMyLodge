@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Categories = () => {
   return (
     <div className="categories">
-      <h1 style={{letterSpacing: "3px" , marginTop: "-80px" , marginBottom: "-60px"}}>Our Top Property List</h1>
+      <h1 style={{letterSpacing: "3px" , marginTop: "-120px" , marginBottom: "-100px" , color: "rgb(248, 105, 53)"}}>Our Top Property List</h1>
       <p style={{letterSpacing: "2px" , lineHeight: "35px" , fontSize: "16px"}}>
       Welcome to your one-stop destination for home bookings. Explore luxurious villas, cozy cottages, and everything in between. Plan your next escape with ease – our user-friendly platform makes finding and booking your dream home a breeze.
       </p>
