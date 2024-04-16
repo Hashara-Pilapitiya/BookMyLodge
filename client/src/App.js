@@ -13,8 +13,7 @@ import CategoryPage from "./pages/CategoryPage";
 import SearchPage from "./pages/SearchPage";
 import Home from "./pages/HomePage";
 import About from "./pages/About";
-// import Support from "./pages/Support";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -35,8 +34,7 @@ function App() {
           <Route path="/:userId/reservations" element={<ReservationList />} />
           <Route path='/home' element={<Home/>} />
           <Route path='/about' element={<About/>} />
-          {/* <Route path='/support' element={<Support/>} />
-          <Route path='/contact' element={<Contact/>} /> */}
+          <Route path='/contact' element={<Contact/>} /> 
         </Routes>
       </BrowserRouter> 
      
