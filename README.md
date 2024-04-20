@@ -20,17 +20,17 @@ Ensuring secure and straightforward booking transactions could be a key feature,
 💠<b>Customer Support</b></br></br>
 Dedicated support for users facing any issues during booking, stay, or post-stay follow-ups might enhance user satisfaction and trust in the platform.</br></br></br>
 💠<b>Special Deals and Rewards</b></br></br>
-The site might offer seasonal promotions, last-minute deals, and loyalty programs to retain and attract customers.</br>
+The site might offer seasonal promotions, last-minute deals, and loyalty programs to retain and attract customers.</br></br>
 
 ### Developers
 💠19APC4081 - <a href='https://github.com/Hashara-Pilapitiya'> H.M.H.N.Pilapitiya - Frontend Development , Backend Development</a></br></br>
 💠19APC4092 - <a href=''> S.M.N.D.Senanatake - Frontend Development</a></br></br>
-💠19APC3949 - <a href=''> S. Anujan - Frontend Development</a></br>
+💠19APC3949 - <a href=''> S. Anujan - Frontend Development</a></br></br>
 
 ### Tools and Technologies are used
 💠For Frontend Development - React JS</br></br>
 💠For Backend Development - Express JS, Node JS</br></br>
-💠For Database Development - MongoDB Database</br>
+💠For Database Development - MongoDB Database</br></br>
 
 ## Installation
 To get a local copy up and running, just clone the repo
