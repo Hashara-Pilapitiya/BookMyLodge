@@ -1,6 +1,6 @@
 # BookMyLodge
 <p align=center>
-   <img width="200px" height="200px" src="https://github.com/Hashara-Pilapitiya/BookMyLodge/assets/125852444/693e1032-b64f-43b0-977e-5655fb20b651"
+   <img width="400px" height="400px" src="https://github.com/Hashara-Pilapitiya/BookMyLodge/assets/125852444/693e1032-b64f-43b0-977e-5655fb20b651"
 
 >
 </p>
@@ -28,9 +28,9 @@ The site might offer seasonal promotions, last-minute deals, and loyalty program
 💠19APC3949 - <a href=''> S. Anujan - Frontend Development</a></br>
 
 ### Tools and Technologies are used
-💠For Frontend Development - React JS
-💠For Backend Development - Express JS, Node JS
-💠For Database Development - MongoDB Database
+💠For Frontend Development - React JS</br>
+💠For Backend Development - Express JS, Node JS</br>
+💠For Database Development - MongoDB Database</br>
 
 ## Installation
 To get a local copy up and running, just clone the repo
