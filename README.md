@@ -1,6 +1,6 @@
 # BookMyLodge
 <p align=center>
-   <img width="400px" height="400px" src="https://github.com/Hashara-Pilapitiya/BookMyLodge/assets/125852444/693e1032-b64f-43b0-977e-5655fb20b651"
+   <img width="500px" height="500px" src="https://github.com/Hashara-Pilapitiya/BookMyLodge/assets/125852444/693e1032-b64f-43b0-977e-5655fb20b651"
 
 >
 </p>
