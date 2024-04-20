@@ -93,14 +93,14 @@ const About = () => {
                 <div className='teamBoxStyle'>
                     <img src={Image2} alt='' className='iconStyle' />
                     <p>Nishiki Senanayake</p><br />
-                    <p className='email'>hasharanethmi2020@gmail.com</p>
+                    <p className='email'>nishiki@gmail.com</p>
                 </div>
 
 
                 <div className='teamBoxStyle'>
                     <img src={Image3} alt='' className='iconStyle' />           
                     <p>Anujan</p><br />
-                    <p className='email'>hasharanethmi2020@gmail.com</p>
+                    <p className='email'>anujan@gmail.com</p>
                 </div>
 
             </div>
