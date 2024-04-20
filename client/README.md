@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# BookMyLodge
+<p align=center>
+   <img width="500px" height="500px" src="https://github.com/Hashara-Pilapitiya/BookMyLodge/assets/125852444/693e1032-b64f-43b0-977e-5655fb20b651"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>
+</p>
 
-## Available Scripts
+BookMyLodge could be an innovative online platform dedicated to simplifying the booking process for various types of lodging. Targeting both casual tourists and business travelers, the website might provide a comprehensive listing of lodges, hotels, bed and breakfasts, and other unique accommodations. At BookMyLodge, we believe that finding the right property should be a joyful and straightforward experience. We are a leading real estate platform dedicated to connecting individuals and families with their dream homes, ideal vacation rentals, and perfect investment opportunities. Our mission is to empower our users with the tools, insights, and data they need to make informed real estate decisions.
 
-In the project directory, you can run:
+## Features
+💠<b>Wide Range of Listings </b></br></br>
+The site could offer an extensive selection of properties ranging from budget lodges to luxury accommodations, covering urban centers as well as scenic rural locales.</br></br></br>
+💠<b>User-Friendly Interface</b></br></br>
+A simple and intuitive search interface might allow users to easily filter options based on location, price, amenities, and availability.</br></br></br>
+💠<b>Detailed Property Descriptions</b></br></br>
+Each listing could be accompanied by detailed descriptions, high-quality photos, and real reviews from past guests to help users make informed decisions. </br></br></br>
+💠<b>Secure Booking Process</b></br></br>
+Ensuring secure and straightforward booking transactions could be a key feature, possibly with instant confirmation and flexible booking policies.</br></br></br>
+💠<b>Customer Support</b></br></br>
+Dedicated support for users facing any issues during booking, stay, or post-stay follow-ups might enhance user satisfaction and trust in the platform.</br></br></br>
+💠<b>Special Deals and Rewards</b></br></br>
+The site might offer seasonal promotions, last-minute deals, and loyalty programs to retain and attract customers.</br></br>
 
-### `npm start`
+### Developers
+💠19APC4081 - <a href='https://github.com/Hashara-Pilapitiya'> H.M.H.N.Pilapitiya - Frontend Development , Backend Development</a></br></br>
+💠19APC4092 - <a href=''> S.M.N.D.Senanatake - Frontend Development</a></br></br>
+💠19APC3949 - <a href=''> S. Anujan - Frontend Development</a></br></br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tools and Technologies are used
+💠For Frontend Development - React JS</br></br>
+💠For Backend Development - Express JS, Node JS</br></br>
+💠For Database Development - MongoDB Database</br></br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Installation
+To get a local copy up and running, just clone the repo
+```
+https://github.com/Hashara-Pilapitiya/BookMyLodge
+```
+Run backend
+```
+cd server
+npm start
+```
