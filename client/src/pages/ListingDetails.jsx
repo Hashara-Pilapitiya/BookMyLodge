@@ -10,6 +10,7 @@ import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
 import { useSelector } from "react-redux";
 import Footer from "../components/Footer"
+import { blue } from "@mui/material/colors";
 
 const ListingDetails = () => {
   const [loading, setLoading] = useState(true);
@@ -98,10 +99,10 @@ const ListingDetails = () => {
       <Navbar />
       
       <div className="listing-details">
-        <div className="title">
-          <h1>{listing.title}</h1>
-          <div></div>
-        </div>
+
+      <div className="title" style={{fontSize: 40 , fontWeight: 700, color: "blue"} }>
+        {listing.title}<br/><br />
+      </div>
 
         <div className="photos">
           {listing.listingPhotoPaths?.map((item) => (
@@ -112,7 +113,10 @@ const ListingDetails = () => {
           ))}
         </div>
 
+        
+
         <h2>
+          
           {listing.type} in {listing.city}, {listing.province},{" "}
           {listing.country}
         </h2>
