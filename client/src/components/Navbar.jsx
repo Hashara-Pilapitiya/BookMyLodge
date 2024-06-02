@@ -105,7 +105,7 @@ const Navbar = () => {
             <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/trips`}>Booking Properties</Link>
             <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/wishList`}>Favourite Properties</Link>
             <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/properties`}>Property List</Link>
-            <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/reservations`}>Reservation List</Link>
+            {/* <Link style={{color: "black" , fontWeight: "700"}} to={`/${user._id}/profile`}>Reservation List</Link> */}
             <Link style={{color: "black" , fontWeight: "700"}} to="/create-listing">Add A Property</Link>
 
             <Link style={{color: "black" , fontWeight: "700"}}

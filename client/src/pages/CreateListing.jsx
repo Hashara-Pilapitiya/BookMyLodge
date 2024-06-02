@@ -136,9 +136,9 @@ const CreateListing = () => {
       <Navbar />
 
       <div className="create-listing">
-        <h1>Publish Your Place</h1>
+        <h1 style={{fontSize: 50, color: "orange", marginTop: -100 }}>Publish Your Place</h1>
         <form onSubmit={handlePost}>
-          <div className="create-listing_step1">
+          <div className="create-listing_step1" style={{marginTop: -50}}>
             <h2>Step 1: Tell us about your place</h2>
             <hr />
             <h3>Which of these categories best describes your place?</h3>
@@ -504,7 +504,7 @@ const CreateListing = () => {
           </div>
 
           <button className="submit_btn" type="submit">
-            CREATE YOUR LISTING
+            ADD YOUR NEW PLACE
           </button>
         </form>
       </div>

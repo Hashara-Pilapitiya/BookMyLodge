@@ -40,8 +40,8 @@ const TripList = () => {
   ) : (
     <>
       <Navbar />
-      <h1 className="title-list">Your Trip List</h1>
-      <div className="list">
+      <h1 className="title-list" style={{fontSize: 50, color: "orange", marginTop: -100 }}>Your Booking List</h1>
+      <div className="list" style={{marginTop: -100}}>
         {tripList?.map(({ listingId, hostId, startDate, endDate, totalPrice, booking=true }) => (
           <ListingCard
             listingId={listingId._id}

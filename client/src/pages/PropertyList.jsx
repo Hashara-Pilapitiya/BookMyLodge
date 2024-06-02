@@ -35,8 +35,8 @@ const PropertyList = () => {
   return loading ? <Loader /> : (
     <>
       <Navbar />
-      <h1 className="title-list">Your Property List</h1>
-      <div className="list">
+      <h1 className="title-list" style={{fontSize: 50, color: "orange", marginTop: -100 }}>Your Property List</h1>
+      <div className="list" style={{marginTop: -100}}>
         {propertyList?.map(
           ({
             _id,

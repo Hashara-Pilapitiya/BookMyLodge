@@ -56,21 +56,21 @@ const RegisterPage = () => {
     <div className="register">
       <div className="register_content">
         <form className="register_content_form" onSubmit={handleSubmit}>
-          <input
+          <input style={{marginBottom: 20, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             placeholder="First Name"
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
             required
           />
-          <input
+          <input style={{marginBottom: 20, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             placeholder="Last Name"
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
             required
           />
-          <input
+          <input style={{marginBottom: 20, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             placeholder="Email"
             name="email"
             type="email"
@@ -78,7 +78,7 @@ const RegisterPage = () => {
             onChange={handleChange}
             required
           />
-          <input
+          <input style={{marginBottom: 20, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             placeholder="Password"
             name="password"
             value={formData.password}
@@ -86,7 +86,7 @@ const RegisterPage = () => {
             type="password"
             required
           />
-          <input
+          <input style={{marginBottom: 20, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             placeholder="Confirm Password"
             name="confirmPassword"
             value={formData.confirmPassword}
@@ -99,12 +99,11 @@ const RegisterPage = () => {
             <p style={{ color: "red" }}>Passwords are not matched!</p>
           )}
 
-          <input
+          <input style={{marginBottom: 20, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc", display: "none"}}
             id="image"
             type="file"
             name="profileImage"
             accept="image/*"
-            style={{ display: "none" }}
             onChange={handleChange}
             required
           />
@@ -122,7 +121,7 @@ const RegisterPage = () => {
           )}
           <button type="submit" disabled={!passwordMatch}>REGISTER</button>
         </form>
-        <a href="/login">Already have an account? Log In Here</a>
+        <a style={{fontSize: 18, letterSpacing: 1}} href="/login">Already have an account? Log In Here</a>
       </div>
     </div>
   );

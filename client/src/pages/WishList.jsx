@@ -10,8 +10,8 @@ const WishList = () => {
   return (
     <>
       <Navbar />
-      <h1 className="title-list">Your Wish List</h1>
-      <div className="list">
+      <h1 className="title-list" style={{fontSize: 50, color: "orange", marginTop: -100 }}>Your Favourite Property List</h1>
+      <div className="list" style={{marginTop: -100}}>
         {wishList?.map(
           ({
             _id,

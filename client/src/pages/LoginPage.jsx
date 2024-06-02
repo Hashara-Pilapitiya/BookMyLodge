@@ -46,23 +46,23 @@ const LoginPage = () => {
     <div className="login">
       <div className="login_content">
         <form className="login_content_form" onSubmit={handleSubmit}>
-          <input
+          <input style={{marginBottom: 30, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <input
+          <input style={{marginBottom: 30, padding: 10, width: 400, borderRadius: 5, border: "1px solid #ccc"}}
             type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
-          <button type="submit">LOG IN</button>
+          <button style={{marginBottom: 20}} type="submit">LOG IN</button>
         </form>
-        <a href="/register">Don't have an account? Sign In Here</a>
+        <a style={{letterSpacing: 1}} href="/register">Don't have an account? Sign Up Here</a>
       </div>
     </div>
   );
