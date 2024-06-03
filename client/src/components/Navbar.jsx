@@ -39,7 +39,7 @@ const Navbar = () => {
       <a href="/">
         <img src="/assets/logo.png" alt="logo" />
       </a>
-
+{/* 
       <div className="navbar_search">
         <input
           type="text"
@@ -51,9 +51,9 @@ const Navbar = () => {
           <Search
             sx={{ color: variables.pinkred }}
             onClick={() => {navigate(`/properties/search/${search}`)}}
-          />
+          /> 
         </IconButton>
-      </div>
+      </div> */}
 
       <div className="navbar_right">
       {nav_links.map(link => <Link  style={{color: "black" , fontWeight: "700" ,

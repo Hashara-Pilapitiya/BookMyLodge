@@ -36,7 +36,7 @@ const SearchPage = () => {
   return loading ? <Loader /> : (
     <>
       <Navbar />
-      <h1 className="title-list" style={{fontSize: 50, color: "orange", marginTop: -100 }}>{search}</h1>
+      <h1 className="title-list">{search}</h1>
       <div className="list" style={{marginTop: -130}}>
         {listings?.map(
           ({

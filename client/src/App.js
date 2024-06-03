@@ -27,7 +27,7 @@ function App() {
           <Route path="/create-listing" element={<CreateListing />} />
           <Route path="/properties/:listingId" element={<ListingDetails />} />
           <Route path="/properties/category/:category" element={<CategoryPage />} />
-          <Route path="/properties/search/:search" element={<SearchPage />} />
+          {/* <Route path="/properties/search/:search" element={<SearchPage />} /> */}
           <Route path="/:userId/trips" element={<TripList />} />
           <Route path="/:userId/wishList" element={<WishList />} />
           <Route path="/:userId/properties" element={<PropertyList />} />
